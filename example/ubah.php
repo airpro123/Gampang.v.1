@@ -4,8 +4,7 @@
     <script type="text/javascript" src="../js/bootstrap.js"></script>
     <script type="text/javascript" src="../js/jquery-3.4.1"></script>
     <?php 
-        include "../database/koneksi.php"; 
-        include "../function/funct.php";
+        include "../functions.php";
 
         $id     = $_GET['id'];
         $tabel  = "pelanggan";
