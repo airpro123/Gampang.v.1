@@ -3,8 +3,10 @@
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <script type="text/javascript" src="../js/bootstrap.js"></script>
     <script type="text/javascript" src="../js/jquery-3.4.1"></script>
-    <?php 
-        include "../database/koneksi.php"; 
+    <?php                 
+        include "../functions.php";
+    
+        $crud = new database();
     ?>
 </head>
 <body>
@@ -90,10 +92,6 @@
                         $_POST['telepon'],
                         $_POST['kota'],
                         $_POST['kode_pos']];
-                
-                        include "../function/funct.php";
-
-                        $crud = new database();
 
                         $hasil = $crud->tambahData($data, "pelanggan");
 
