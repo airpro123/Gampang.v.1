@@ -4,8 +4,7 @@
     <script type="type/javascript" src="../js/bootstrap.js"></script>
     <script type="type/javascript" src="../js/jquery-3.4.1.min.js"></script>
     <?php 
-        include "../database/koneksi.php"; 
-        include "../function/funct.php";
+        include "../functions.php";
 
         $crud = new database();
     ?>
