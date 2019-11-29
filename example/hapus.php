@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php  
-        include "../function/funct.php";
+        include "../function/functions.php";//lokasi functions.php
 
         $id     = $_GET['id'];
         $tabel  = "pelanggan";
